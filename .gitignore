@@ -1,8 +1,20 @@
+# Maven / Java
 target/
-*.log
 *.class
+*.log
+
+# IntelliJ / Eclipse / VSCode
 .idea/
+*.iml
+.classpath
+.project
+.settings/
 .vscode/
 
-# application config
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spring Boot config (güvenlik)
 src/main/resources/application.properties
+*.env
